@@ -230,10 +230,19 @@ body {
   @media screen and (max-width: 768px) {
     body {
       background-color: #333;
+      width:750px;
     }
-    body {
-      width: 740px;
+    #masthead {
+      position: static;
+  }
+  #main-container {
+    padding-top:10px;
+    margin-bottom: 700px;    }
+  
+  .auth-image {
+      width:40%;
     }
+    
   }
 
   @media screen and (max-width: 640px) {
@@ -267,7 +276,7 @@ body {
 /* widen margin b/w main container and footer*/
     #main-container {
     padding-top:10px;
-    padding-bottom:100px;
+    margin-bottom:500px;
     }
   
 }
