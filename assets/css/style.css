@@ -220,11 +220,20 @@ body {
   @media screen and (max-width: 980px) {
     body {
       background-color: #333;
+      width:950px
+    }
+    #main-container {
+      width: 70%;
+      margin-right: 400px;
+      margin-bottom: 700px;
+      padding-top: 10px;
+      
+    }
+
+    #masthead {
+      position: static;
     }
   
-    body {
-      width: 900px;
-    }
   }
 
   @media screen and (max-width: 768px) {
