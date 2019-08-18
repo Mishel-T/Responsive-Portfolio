@@ -218,6 +218,10 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  .card {
+    height: 350px
+  }
   
 
   @media screen and (max-width: 980px) {
