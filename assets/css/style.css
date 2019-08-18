@@ -258,6 +258,10 @@ body {
   .auth-image {
       width:40%;
     }
+
+  .row {
+    width:100%
+  }
     
   }
 
@@ -275,6 +279,9 @@ body {
     nav {
       width:100%;
       text-align: center;
+    }
+    .row {
+      width: 100%
     }
 /* need to make image smaller*/
     .auth-image {
